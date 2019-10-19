@@ -1,0 +1,48 @@
+html {
+    background: url(./img/background-img.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+header {
+		width: 100%;
+}
+
+  .mainCover {
+    text-align: center;
+    color: #5a5656;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+h1 {
+    font-size: 120px;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+		font-weight: normal;
+		/*text-shadow: -3px 2px 0 #fff;*/
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.icons img {
+	width: 40px;
+	padding: 10px;
+}
+
+.iconsContainer {
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
