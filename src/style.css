@@ -107,10 +107,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   background-color: rgb(179, 219, 212);
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .picAboutMe img {
@@ -142,6 +142,23 @@ a {
 .textAboutMe h3 {
   font-family: 'Dawning of a New Day', cursive;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 50px;
   margin: 0;
+  text-align: left;
+}
+
+.textAboutMe p {
+  text-align: left;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.tecnologies {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tecnologies img {
+  width: 60px;
+  padding: 10px;
 }
